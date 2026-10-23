@@ -15,5 +15,8 @@ jobs:
         with:
           python-version: '3.13'
 
+      - name: List repository files
+        run: ls -la
+
       - name: Run Python script
         run: python my_script.py
